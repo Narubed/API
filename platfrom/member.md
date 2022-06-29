@@ -1,6 +1,6 @@
 # Members
 
-## https://api.nbadigitalworlds.com/v1/platform
+## https://api.nbadigitalservice.com/v1/platform
 
 ### การดึงข้อมูลของ members ทั้งหมด
 
