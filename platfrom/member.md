@@ -51,8 +51,8 @@ Body
 | `mem_money` | `number` | **ยอดเงินในกระเป๋า** | **default: 0** |
 | `mem_credit` | `number` | **ยอดเงินสำหรับเก็บค่าคอมมิชชั่น หรือค่าแนะนำ** | **default: 0** |
 | `mem_status` | `string` | **สถานะของสมาชิกที่สมัคร process อยู่ระหว่างการตรวจสอบ online ออนไลน์ offline ออฟไลน์ (บัญชีถูกปิดการใช้งาน)** | **default: process** |
-| `mem_upline` | `array` | **ยอดเงินในกระเป๋า** | **default: []** |
-| `mem_allsale` | `number` | **ยอดเงินในกระเป๋า** | **default: 0** |
+| `mem_upline` | `array` | **ผู้ใช้งานที่อยู่สูงกว่า** | **default: []** |
+| `mem_allsale` | `number` | **AllSale** | **default: 0** |
 
 ### การแก้ไขข้อมูล members
 
@@ -84,8 +84,8 @@ Body
 | `mem_money` | `number` | **ยอดเงินในกระเป๋า** | **default: 0** |
 | `mem_credit` | `number` | **ยอดเงินสำหรับเก็บค่าคอมมิชชั่น หรือค่าแนะนำ** | **default: 0** |
 | `mem_status` | `string` | **สถานะของสมาชิกที่สมัคร process อยู่ระหว่างการตรวจสอบ online ออนไลน์ offline ออฟไลน์ (บัญชีถูกปิดการใช้งาน)** | **default: process** |
-| `mem_upline` | `array` | **ยอดเงินในกระเป๋า** | **default: []** |
-| `mem_allsale` | `number` | **ยอดเงินในกระเป๋า** | **default: 0** |
+| `mem_upline` | `array` | **ผู้ใช้งานที่อยู่สูงกว่า** | **default: []** |
+| `mem_allsale` | `number` | **AllSale** | **default: 0** |
 
 ### การลบข้อมูล members
 
