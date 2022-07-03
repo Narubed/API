@@ -109,7 +109,7 @@ _id=62860054821f7b69619f254 (_id ของ members)
 ### การลบข้อมูล Credit
 
 ```http
-PUT /members/add_credit/:_id
+PUT /members/minus_credit/:_id
 _id=62860054821f7b69619f254 (_id ของ members)
 ```
 
