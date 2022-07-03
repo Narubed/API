@@ -11,10 +11,10 @@ Body
 | Parameter | Type | Description | Default |
 | :--- | :--- | :--- | :--- |
 | `member_phone_number` | `string` | **เบอร์โทรศัพท์** |
-| `member_firstname` | `number` | **ชื่อจริง** |
+| `member_firstname` | `string` | **ชื่อจริง** |
 | `member_lastname` | `string` | **นามสกุล** |
-| `member_address` | `number` | **ที่อยู่** |
-| `member_password` | `number` | **รหัสผ่าน** |
+| `member_address` | `string` | **ที่อยู่** |
+| `member_password` | `string` | **รหัสผ่าน** |
 | `member_current_point` | `number` | **จำนวน Point** |
 | `member_total_point` | `number` | **จำนวน EXP หรือค่่าประสบการณ์** |
 | `member_timestamp` | `date` | **วันที่สร้างผู้ใช้งาน** |
