@@ -93,3 +93,27 @@ Body
 DELETE /members/:_id
 _id=62860054821f7b69619f254
 ```
+
+### การเพิ่มข้อมูล Credit
+
+```http
+PUT /members/add_credit/:_id
+_id=62860054821f7b69619f254 (_id ของ members)
+```
+
+| Parameter    | Type     | Description       | Default |
+| :----------- | :------- | :---------------- | :------ |
+| `mem_credit` | `number` | **จำนวนที่เพิ่ม** |
+| `detail`     | `string` | **รายละเอียด**    |
+
+### การลบข้อมูล Credit
+
+```http
+PUT /members/add_credit/:_id
+_id=62860054821f7b69619f254 (_id ของ members)
+```
+
+| Parameter    | Type     | Description    | Default |
+| :----------- | :------- | :------------- | :------ |
+| `mem_credit` | `number` | **จำนวนที่ลบ** |
+| `detail`     | `string` | **รายละเอียด** |
