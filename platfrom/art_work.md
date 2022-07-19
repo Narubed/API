@@ -1,6 +1,6 @@
 # art_work
 
-## https://api.nbadigitalservice.com/v1/platform/art_work
+## https://api.nbadigitalservice.com/v1/platform/project/artwork
 
 ### การดึงข้อมูลของ art_work ทั้งหมด
 
