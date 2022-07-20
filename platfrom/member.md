@@ -101,10 +101,11 @@ PUT /members/add_credit/:_id
 _id=62860054821f7b69619f254 (_id ของ members)
 ```
 
-| Parameter    | Type     | Description       | Default |
-| :----------- | :------- | :---------------- | :------ |
-| `mem_credit` | `number` | **จำนวนที่เพิ่ม** |
-| `detail`     | `string` | **รายละเอียด**    |
+| Parameter     | Type     | Description       | Default |
+| :------------ | :------- | :---------------- | :------ |
+| `mem_credit`  | `number` | **จำนวนที่เพิ่ม** |
+| `detail`      | `string` | **รายละเอียด**    |
+| `mem_allsale` | `string` | **เพิม allsale**  |
 
 ### การลบข้อมูล Credit
 
