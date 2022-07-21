@@ -106,6 +106,7 @@ _id=62860054821f7b69619f254 (_id ของ members)
 | `mem_credit`  | `number` | **จำนวนที่เพิ่ม** |
 | `detail`      | `string` | **รายละเอียด**    |
 | `mem_allsale` | `string` | **เพิม allsale**  |
+| `timestamp`   | `date`   | **timestamp**     |
 
 ### การลบข้อมูล Credit
 
@@ -118,3 +119,31 @@ _id=62860054821f7b69619f254 (_id ของ members)
 | :----------- | :------- | :------------- | :------ |
 | `mem_credit` | `number` | **จำนวนที่ลบ** |
 | `detail`     | `string` | **รายละเอียด** |
+| `timestamp`  | `date`   | **timestamp**  |
+
+### การเพิ่มข้อมูล wallet
+
+```http
+POST /members/add_wallet/
+
+```
+
+| Parameter    | Type     | Description       | Default |
+| :----------- | :------- | :---------------- | :------ |
+| `mem_id`     | `number` | **mem id**        |
+| `mem_amount` | `number` | **จำนวนที่เพิ่ม** |
+| `detail`     | `string` | **รายละเอียด**    |
+| `timestamp`  | `date`   | **timestamp**     |
+
+### การลบข้อมูล wallet
+
+```http
+POST /members/minus_wallet/
+```
+
+| Parameter    | Type     | Description       | Default |
+| :----------- | :------- | :---------------- | :------ |
+| `mem_id`     | `number` | **mem id**        |
+| `mem_amount` | `number` | **จำนวนที่เพิ่ม** |
+| `detail`     | `string` | **รายละเอียด**    |
+| `timestamp`  | `date`   | **timestamp**     |

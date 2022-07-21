@@ -2,13 +2,13 @@
 
 ## https://api.nbadigitalservice.com/v1/platform
 
-### การดึงข้อมูลของ pay_register ทั้งหมด
+### การดึงข้อมูลของ money_history ทั้งหมด
 
 ```http
 GET /money_history
 ```
 
-### การดึงข้อมูลของ pay_register ผ่านไอดี
+### การดึงข้อมูลของ money_history ผ่านไอดี
 
 ```http
 GET /money_history/:_id
