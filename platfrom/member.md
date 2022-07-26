@@ -147,3 +147,16 @@ POST /members/minus_wallet/
 | `mem_amount` | `number` | **จำนวนที่เพิ่ม** |
 | `detail`     | `string` | **รายละเอียด**    |
 | `timestamp`  | `date`   | **timestamp**     |
+
+
+### การลบข้อมูล allsela
+```http
+POST /members/minus_allsela/
+```
+
+| Parameter    | Type     | Description       | Default |
+| :----------- | :------- | :---------------- | :------ |
+| `mem_id`     | `number` | **mem id**        |
+| `amount` | `number` | **จำนวนที่ลบ** |
+| `detail`     | `string` | **รายละเอียด**    |
+| `timestamp`  | `date`   | **timestamp**     |
